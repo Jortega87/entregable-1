@@ -7,7 +7,7 @@ const ButtonPhrase = ({setPhrase, setImage}) => {
 
     const handlePhrase =() =>{
         setPhrase(getRandom(arrayPhrases))
-        setImage(getRandom([1,2,3,4]))
+        setImage(getRandom(arrayImages))
 
     }
   return (
